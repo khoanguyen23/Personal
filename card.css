@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    background-image: url(images/anime.jpg);
+    background-position:center;
+    background-size: cover;
+
+}
+/*-------------HEADER---------------*/
+
+/* nav{
+    display: flex;
+   align-items: center;
+   padding: 2% 6%;
+   justify-content: space-between; 
+} */
+/* .nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width:100%;
+} */
+
+/*
+.nav-links ul li > .sub-menu {
+    display: none;
+}
+.nav-links ul li :hover .sub-menu {
+    display: block;
+} */
+/* -----------------------------------container------------------------------- */
+.container{
+    width:100%;
+    height: 100vh;
+    /*background-image: url(images/anime.jpg);
+    background-position: center;
+    background-size: cover;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 90%;
+    max-width: 440px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+}
+.card img{
+    width: 140px;
+    border-radius: 50%;
+}
+.card h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card p{
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
+    color: #fff;
+}
+.card .links img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: backgroun 0.5s;
+
+}
+.card .links img:hover{
+    background: #ff01cf;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+    color: #ff01cf;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+
+}
+/*----introduce----*/
+/*.introduce {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.introduce-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+}
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.introduce-col:hover{
+    box-shadow: 0 0 20px 0px rgba(119, 25, 25, 0.2);
+} */
+.body_video{
+    height: 120vh ;
+    display: grid;
+    place-items: center;
+   /* background-image: url(images/anime.jpg);
+    background-position: center;
+    background-size: cover;*/
+}
+.play-tiktok{
+    position: relative;
+    height: 700px;
+    background-color:#fff;
+    overflow: scroll;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+}
+.play-tiktok::-webkit-scrollbar {
+    display: none;
+}
+.play-tiktok{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.video{
+    position:relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+.video_player{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+

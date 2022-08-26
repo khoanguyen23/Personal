@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOANG KHOA</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- phím tắt ctrl +/ -->
+</head>
+<body>
+  <!-- ------------------------MUSIC PLAY--------------- -->
+  <div class="music-play">
+    <img src="images/play.png" id="icon">
+  </div>
+
+<!-- <audio id="mySong">
+  <source src="images/sober.mp3"  type="audio/mp3">
+  </audio>
+
+  <script>
+        var mySong = document.getElementById ("mySong");
+        var icon = document.getElementById ("icon");
+
+        icon.onclick = function( ) {
+          if(mySong.paused){
+            mySong.play();
+            icon.src ="images/icons8-pause-100.png";
+          }else {
+                mySong.paused();
+                 icon.src="images/icons8-play-play-100.png";
+                }
+          
+        }
+  </script> -->
+  <audio id="mysong">
+    <source src="images/忘れじの言の葉 (安次嶺希和子) ／ダズビー COVER.mp3" type="audio/mp3">
+</audio>
+
+<script>
+
+    var mysong = document.getElementById("mysong");
+    var icon = document.getElementById("icon");
+    
+    icon.onclick = function(){
+        if(mysong.paused){
+            mysong.play();
+            icon.src = "images/pause.png";
+        }else{
+            mysong.pause();
+            icon.src = "images/play.png";
+        }
+    }
+
+</script>
+
+
+  <!-- END MUSIC------------- -->
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+          <div class="user-box">
+            <input type="text" name="" required="">
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required="">
+            <label>Password</label>
+          </div>
+          <a href="card.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+          
+        </form>
+      </div>
+</body>
+</html>
